@@ -16,7 +16,7 @@ function handleConnect() {
 
     connect.value = true;
 
-    socket = io('ws://localhost:3000');
+    socket = io('ws://xazada-chat.onrender.com');
 
     socket.on('chat message', (data) => {
 
